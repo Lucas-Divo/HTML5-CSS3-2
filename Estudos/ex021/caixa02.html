@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(116, 115, 115);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.459);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: lightslategray;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem eos id nisi quo, itaque vitae blanditiis eaque exercitationem, suscipit explicabo sapiente quis praesentium reprehenderit consequuntur fugiat quibusdam, labore laboriosam. Veniam.</p>
+        </section>
+        <section id="noticias">
+
+        </section>
+        <article>
+            <h2>Notícia sobre...</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sed enim eum vero natus voluptatibus mollitia fugit incidunt non cum, deleniti consequatur? Nisi mollitia, placeat unde aperiam asperiores rerum beatae.</p>
+        </article>
+        <aside>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quasi asperiores, alias, nam sit magni, facilis labore debitis perferendis obcaecati aut at ipsam doloribus! Fuga quam corrupti neque quod illo!</p>
+        </aside>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+</body>
+</html>
